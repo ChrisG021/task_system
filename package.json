@@ -1,0 +1,19 @@
+{
+  "name": "task_system",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/app.ts --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.4.1",
+    "fastify": "^4.28.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
