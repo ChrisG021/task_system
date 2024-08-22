@@ -21,7 +21,6 @@ export const getTaskByIdController =(req:FastifyRequest,res:FastifyReply)=>{
     //  a uma variável chamada id. É uma maneira de simplificar
     //   o código e evitar a necessidade de acessar a propriedade de forma mais verbosa, como req.params.id.
     const {id} = req.params as {id:number}
-    console.log(id)
     const task = taskManager.getTaskById(id)
     //ta retornando undefined
     if(task){
